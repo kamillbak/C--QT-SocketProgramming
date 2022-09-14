@@ -1,0 +1,19 @@
+RUN WITH "JSON - simple example" server 
+
+Main window + 3 widnows
+
+Main window:
+-You can connect/disconnect with server
+-You can send to server 2 arrays
+-You can request server to add to this arrays number
+-You can open other windows
+
+
+FD :
+It is smth indise, but It's not used (To DELETE)
+
+Path:
+Empty
+
+ChartsWindow:
+If arrays are in data object It will create chart, otherwise program will crush - if(*arr = null) shpuld be added

@@ -1,0 +1,19 @@
+Program sending Logouts too GUI as a JSON object 
+
+class comSocket(singleton):
+
+    -createSocket()
+    -acceotClient()
+    -sendLogAsJSON()
+
+class Logger:
+    -sendLogs() 
+
+main: 
+
+    create comSocket object
+    creaate socket
+    
+    create logger object
+    sendLogs
+

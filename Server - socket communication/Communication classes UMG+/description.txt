@@ -1,0 +1,22 @@
+Class structure ready to add to UMG+ 
+
+4 classes + library JSON.hpp
+
+JSON:
+convertFromCharArrToJson() - static function converting charr arr to JSON object
+
+Encryption: 
+encode() - ( !to write ) should convert JSON to array char and prepare to send  
+decode() - function converting JSON to string "KeyWord + V1 + ... " 
+ 
+Socket: 
+createSocket() - creating socket ofc 
+acceptClient() - accepting Client 
+readFormSocket() -  read char array from socket 
+sendViaSocket() - (!to copy from othe programs) send charr arr via socket 
+closeSocket() - closing socket 
+
+Communication: 
+communicateWithGui() - function which use another classes to do communicate with GUI. 
+execute() - (!to write) funcion which should pass "Key word + v1.. +" string to Stack and run fcn. 
+

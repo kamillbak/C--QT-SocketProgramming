@@ -1,0 +1,41 @@
+You can run this server with GUI 3 windows and test
+
+! Once in three time changing data try is failed, to make it works good
+just remove // test" lines
+
+How program works in shortcut:
+
+createSocket()
+while(1)
+{
+    acceptClient()
+    while(1)
+    {
+        readcharArray()
+        pareseToJson()
+
+        if( json["type" = "smth1")
+        {
+            ....
+        }
+        else if( json["type" = "smth2")
+        {
+            ...
+        }
+        else
+        {
+            cout<< "NO OPTION LIKE THAT" 
+        }
+        SendTwoArraysToClient()       
+    }
+}
+
+Functions :
+    fcnSet1 -  set array1 values
+    fcnSet2 - set arrays2 values
+    addToV1 - add to array1 values
+    addToV2 - add to array2 values
+    showArr1 - show array 1 
+    ShowArr2 - show array 2 
+
+
